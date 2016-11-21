@@ -7,9 +7,16 @@
     </h:head>
     <h:body>
         Hello from Facelets
-        
+
         #{data.name}
-        
+
+
+        <h:form>
+           
+            <h:commandButton action="#{data.addPublisher}" value="Dodaj wydawcę" />
+            
+        </h:form>
+
     </h:body>
 </html>
 
